@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: groove;
+    border-color: rgb(231, 20, 214);
+    border-width: 32px;
+    background-color:rgba(248, 248, 242, 0.932)
+}
+#img{
+    margin:25px;
+    background-color: rgba(216, 133, 181, 0.932);
+    border: 5px double rgb(233, 25, 170);
+   
+}
+#img,
+#titulo{
+    display: inline-block;
+    padding: 5px;
+    margin:70px;
+    
+    
+}
+h1, h2 {
+    display: flex;
+    align-items: right;
+    margin-bottom:60px;
+    padding: 25px;
+    justify-content: right;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+}
+
+#frase{
+    border: 5px double rgb(16, 85, 212);
+    margin: 70px;
+    margin-top:25px;
+    padding:25px;
+    background-color: rgba(106, 148, 226, 0.932);
+    text-align:center;
+   
+}
+q{
+    font-size: 30px;
+}
+#bibliografia{
+    border: 5px double rgb(233, 25, 170);
+    margin: 50px;
+    padding:25px;
+    text-align: justify;
+    background-color: rgba(216, 133, 181, 0.932);
+}
+#premios{
+    text-decoration: none;
+    border: 5px double rgb(16, 85, 212);
+    margin: 50px;
+    padding:25px;
+    text-align:center;
+    background-color: rgba(106, 148, 226, 0.932);
+    list-style: none; 
+}
+#pic,
+#jpeg{
+    display: inline-block;
+    align-items: center;
+    width: 35%;
+    height: 30%;
+    margin: 40px;
+    padding:30px;
+    border: 5px double rgb(233, 25, 170);
+    background-color: rgba(216, 133, 181, 0.932);
+}
+
+
+footer {
+    text-align: center;
+    height:150px;
+   
+}
